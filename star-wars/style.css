@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(3, 7, 46);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(232, 208, 76);
+}
+
+h1{
+
+    font-size: 5em;
+    margin-top: 0em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
+
+.box{ 
+    padding: 2.5em;
+    border: solid rgb(247, 236, 116);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+	background: #222A61;
+	cursor: pointer;
+}
+
+#help-obi{
+    background-color: rgb(194, 168, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+}
+
+#character-id{
+    margin: 0.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    background-color: rgb(231, 224, 251);
+}
